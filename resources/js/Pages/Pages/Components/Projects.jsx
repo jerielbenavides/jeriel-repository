@@ -6,19 +6,43 @@ const projects = [
         title: 'Project 1',
         description: 'A brief description of Project 1.',
         tags: ['React', 'Tailwind CSS', 'Node.js'],
-        imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URLs
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/jpauctions.jpg`,
     },
     {
         title: 'Project 2',
         description: 'A brief description of Project 2.',
         tags: ['Vue.js', 'Laravel', 'Inertia.js'],
-        imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URLs
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/madMoviesBanner.webp`,
     },
     {
         title: 'Project 3',
         description: 'A brief description of Project 3.',
         tags: ['PHP', 'MySQL', 'Bootstrap'],
-        imageUrl: 'https://via.placeholder.com/150', // Replace with actual image URLs
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/signoutBanner.webp`,
+    },
+    {
+        title: 'Project 3',
+        description: 'A brief description of Project 3.',
+        tags: ['PHP', 'MySQL', 'Bootstrap'],
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/wat9sBanner.webp`,
+    },
+    {
+        title: 'Project 3',
+        description: 'A brief description of Project 3.',
+        tags: ['PHP', 'MySQL', 'Bootstrap'],
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/tradexiqBanner.webp`,
+    },
+    {
+        title: 'Project 3',
+        description: 'A brief description of Project 3.',
+        tags: ['PHP', 'MySQL', 'Bootstrap'],
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/groceriesBanner.png`,
+    },
+    {
+        title: 'Project 3',
+        description: 'A brief description of Project 3.',
+        tags: ['PHP', 'MySQL', 'Bootstrap'],
+        imageUrl: `${import.meta.env.VITE_APP_URL}/img/emojiBanner.webp`,
     },
 ];
 
