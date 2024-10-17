@@ -16,13 +16,15 @@ export default {
         colors: {
             transparent: 'transparent',
             current: 'currentColor',
-            'prussianBlue': '#0D324D',
-            'powder': '#F9F7F3',
-            'chocolate': '#561D25',
-            'imperialRed': '#F71735',
-            'verdigris': '#28AFB0',
+            'deepOcean': '#003135',
+            'white': '#C1CFDA',
+            'paleSkyBlue': '#AFDDE5',
+            'Rosewood': '#3a0104',
+            'forrestTeal': '#024950',
+            'tropicalCyan': '#0fa4af',
             'black':'#020202',
         },
+
     },
     plugins: [],
 };
