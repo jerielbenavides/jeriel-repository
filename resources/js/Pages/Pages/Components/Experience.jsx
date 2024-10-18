@@ -1,11 +1,12 @@
 import React from 'react';
+
 const experiences = [
     {
-        title: 'Software Engineer',
-        company: 'Tech Company',
-        description: 'Developed and maintained web applications using React, Node.js, and MongoDB.',
-        tags: ['React', 'Node.js', 'MongoDB'],
-        years: '2020 - 2023',
+        title: 'Full Stack Web Developer',
+        company: 'JP Auctions',
+        description: 'At JP Auctions, I currently lead the development of a full-scale auction platform using Laravel, Vue.js, and Tailwind CSS. I\'ve integrated payment processing systems, optimized SEO to boost visibility, and implemented real-time bidding features. My focus is on delivering a seamless experience for both buyers and sellers while managing server deployments to ensure the platform stays secure and performs well.',
+        tags: [],
+        years: '2023 - Current',
     },
     {
         title: 'Web Developer',
@@ -29,19 +30,21 @@ const Experience = () => {
             <h2 className="text-4xl font-bold mb-8">Experience</h2>
             <div className="grid grid-cols-1 gap-6">
                 {experiences.map((experience, index) => (
-                    <div key={index} className="flex bg-white shadow-lg rounded-lg overflow-hidden">
+                    <div
+                        key={index}
+                        className="flex flex-col md:flex-row bg-forrestTeal shadow-lg rounded-lg overflow-hidden hover:bg-indigo-600 transition duration-500 hover:scale-105"
+                    >
                         {/* Year Section */}
-                        <div className="w-1/3 bg-gray-100 p-6 flex items-center justify-center">
+                        <div className="w-full md:w-1/3 bg-gray-100 flex items-center md:justify-center p-6 pb-0">
                             <span className="text-lg font-semibold text-gray-700">
                                 {experience.years}
                             </span>
                         </div>
 
-                        {/* Job Title and Description Section */}
-                        <div className="w-2/3 p-6">
+                        <div className="w-full md:w-2/3 p-6">
                             <h3 className="text-2xl font-semibold mb-1">{experience.title}</h3>
                             <p className="text-lg font-medium mb-2 text-gray-600">{experience.company}</p>
-                            <p className="text-gray-700 mb-4">{experience.description}</p>
+                            <p className="text-gray-700 text-sm mb-4">{experience.description}</p>
                             <div className="flex flex-wrap gap-2">
                                 {experience.tags.map((tag, i) => (
                                     <span
